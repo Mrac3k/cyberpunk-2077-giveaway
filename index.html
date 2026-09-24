@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon/favicon.jpg" type="image/jpeg">
+    <title>Cyberpunk 2077</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="hero">
+
+            <header class="header">
+                <div class="container header__container">
+                    <img src="./assets/img/logo.svg" alt="Cyberpunk 2077" class="header__logo">
+                    <div class="header__social">
+                        <a href="https://www.youtube.com/user/CyberPunkGame" class="social__link" target="_blank"
+                            rel="noopener noreferrer" aria-label="YouTube">
+                            <img src="./assets/icon/youtube-logo.svg" alt="" class="social__link-item">
+                        </a>
+                        <a href="https://vk.ru/feed" class="social__link" target="_blank" rel="noopener noreferrer"
+                            aria-label="VK">
+                            <img src="./assets/icon/vk-logo.svg" alt="" class="social__link-item">
+                        </a>
+                        <a href="http://facebook.com/CyberpunkGameRU" class="social__link" target="_blank"
+                            rel="noopener noreferrer" aria-label="Facebook">
+                            <img src="./assets/icon/facebook-logo.svg" alt="" class="social__link-item">
+                        </a>
+                        <a href="http://x.com/cyberpunkgame" class="social__link" target="_blank" rel="noopener noreferrer"
+                            aria-label="X (Twitter)">
+                            <img src="./assets/icon/twitter-square-logo.svg" alt="" class="social__link-item">
+                        </a>
+                        <a href="https://www.twitch.tv/cdprojektred" class="social__link" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitch">
+                            <img src="./assets/icon/twitch-logo.svg" alt="" class="social__link-item">
+                        </a>
+                        <a href="https://www.instagram.com/cyberpunkgame/" class="social__link" target="_blank"
+                            rel="noopener noreferrer" aria-label="Instagram">
+                            <img src="./assets/icon/instagram-square-logo.svg" alt="" class="social__link-item">
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container hero__container">
+                <div class="hero__banner">
+                    <h1 class="hero__title">Доступно на<br>всех платформах</h1>
+                    <a href="https://www.cyberpunk.net/ru/ru/buy" class="hero__btn">Узнать больше</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about">
+
+            <div class="container">
+                <h2 class="about__title">Найт-Сити изменит тебя навсегда!</h2>
+
+                <p class="about__text">
+                    <span class="accent">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити,
+                    где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках
+                    устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры
+                    своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя
+                    окружает.
+                </p>
+
+                <div class="about__gallery">
+                    <img src="./assets/img/Rectangle 597.jpg" alt="Найт-Сити ночью" class="about__img about__img--1">
+                    <img src="./assets/img/Rectangle 598.jpg" alt="Гонка на байке" class="about__img about__img--2">
+                    <img src="./assets/img/Rectangle 599.jpg" alt="Небоскрёбы Найт-Сити"
+                        class="about__img about__img--3">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="promo">
+            <div class="container">
+
+                <div class="promo__header">
+                    <img src="./assets/icon/discount.svg" alt="" class="promo__icon">
+                    <h2 class="promo__title">Играй и выигрывай!</h2>
+                </div>
+
+                <p class="promo__text">
+                    Играй в <span class="accent">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="accent">Xbox Series X</span> или <span class="accent">Sony PlayStation 5!</span>
+                    Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля.
+                    Удачи!
+                </p>
+
+                <div class="promo__content">
+                    <form class="promo__form" action="#" method="POST" enctype="multipart/form-data">
+
+                        <div class="promo__field">
+                            <label class="promo__label" for="name">Как тебя зовут?</label>
+                            <input class="promo__input" type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="promo__field">
+                            <label class="promo__label" for="email">Твой e-mail</label>
+                            <input class="promo__input" type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="promo__field">
+                            <label class="promo__file" for="screenshot">
+                                <span class="promo__file-title">Прикрепить скриншот</span>
+                                <span class="promo__file-text">.png / .jpg / .pdf</span>
+                            </label>
+                            <input class="promo__file-input" type="file" id="screenshot" name="screenshot"
+                                accept=".png,.jpg,.jpeg,.pdf">
+                        </div>
+
+                        <button class="promo__btn" type="submit">Отправить</button>
+
+                        <label class="promo__checkbox">
+                            <input type="checkbox" name="agree" required>
+                            <span>Согласен на обработку персональных данных</span>
+                        </label>
+
+                    </form>
+
+                    <img src="./assets/img/Group 217.png" alt="Xbox Series X и PlayStation 5" class="promo__image">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="gaming-experience">
+            <div class="container">
+                <div class="gaming-experience__content">
+
+                    <div class="gaming-experience__left">
+                        <img src="./assets/img/adventages.png" alt="HP Monitor" class="gaming-experience__img">
+
+
+                    </div>
+
+                    <div class="gaming-experience__right">
+                        <h2 class="gaming-experience__title">
+                            Полное погружение вместе с HP
+                        </h2>
+
+                        <p class="gaming-experience__subtitle">
+                            Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с
+                            диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай
+                            реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!
+                        </p>
+
+                        <div class="gaming-experience__advantages">
+                            <div class="gaming-experience__advantage">
+                                <img src="./assets/icon/color_lens.png" alt="" class="gaming-experience__icon">
+                                <span class="gaming-experience__text">Яркие насыщенные цвета</span>
+                            </div>
+
+                            <div class="gaming-experience__advantage">
+                                <img src="./assets/icon/auto_awesome.png" alt="" class="gaming-experience__icon">
+                                <span class="gaming-experience__text">Кристальная четкость изображения</span>
+                            </div>
+
+                            <div class="gaming-experience__advantage">
+                                <img src="./assets/icon/auto_awesome_motion.png" alt="" class="gaming-experience__icon">
+                                <span class="gaming-experience__text">Быстрые движения и плавный геймплей</span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="gaming-experience__btn">Подробнее</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="buy">
+
+            
+                <div class="buy__content">
+
+                    <div class="buy__media">
+                        <img src="./assets/img/buy-section.jpg" alt="Обложки Cyberpunk 2077" class="buy__image">
+                    </div>
+
+                    <div class="buy__info">
+                        <h2 class="buy__title">Купить игру Cyberpunk 2077</h2>
+
+                        <p class="buy__subtitle">В комплект входит:</p>
+
+                        <ul class="buy__list">
+                            <li class="buy__item">
+                                <img src="./assets/icon/disk.svg" alt="" class="buy__icon">
+                                <span class="buy__text">Футляр с игровыми дисками</span>
+                            </li>
+                            <li class="buy__item">
+                                <img src="./assets/icon/wysiwyg.svg" alt="" class="buy__icon">
+                                <span class="buy__text">Футляр с кодом для загрузки игры и дисками (pc)</span>
+                            </li>
+                            <li class="buy__item">
+                                <img src="./assets/icon/collections.svg" alt="" class="buy__icon">
+                                <span class="buy__text">Справочник с информацией об игровом мире</span>
+                            </li>
+                        </ul>
+
+                        <p class="buy__subtitle">Выберите платформу:</p>
+
+                        <div class="buy__platforms">
+                            <a href="https://store.steampowered.com/bundle/32470/Cyberpunk_2077/" class="buy__platform">
+                                <img src="./assets/icon/PC.svg" alt="PC" class="buy__platform-iconpc">
+                            </a>
+                            <a href="https://www.xbox.com/en-GB/games/store/cyberpunk-2077/bx3m8l83bbrw" class="buy__platform">
+                                <img src="./assets/icon/xbox-one-3 logo.svg" alt="Xbox One" class="buy__platform-icon">
+                            </a>
+                            <a href="https://store.steampowered.com/bundle/32470/Cyberpunk_2077/" class="buy__platform">
+                                <img src="./assets/icon/Stadia.svg" alt="Stadia" class="buy__platform-iconst">
+                            </a>
+                            <a href="https://www.playstation.com/en-us/games/cyberpunk-2077/" class="buy__platform">
+                                <img src="./assets/icon/Playstation.svg" alt="PS4" class="buy__platform-icon">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__content">
+
+                    <div class="footer__left">
+                        <img src="./assets/icon/Cyberpunk_2077_logo 2.png" alt="" class="footer__image">
+                        <img src="./assets/icon/CD_Projekt_logo 1.svg" alt="" class="footer__img">
+                    </div>
+
+
+
+
+                    <div class="footer__right">
+                        <a href="https://regulations.cdprojektred.com/ru/privacy_policy" class="footer__info">Лицензия</a>
+                        <a href="https://regulations.cdprojektred.com/ru/privacy_policy" class="footer__info">Политика конфиденциальности</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="cdproject">
+                <span class="cdproject__text">
+                    CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®
+                </span>
+            </div>
+
+        </footer>
+
+    </main>
+</body>
+
+</html>
